@@ -10,5 +10,14 @@
     <body>
         <div><h1>Világos?!</h1></div>
         <div><p>Ez egy dark üzemmódot támogató oldal!</p></div>
+        <form method="GET">
+            <input type="hidden" name="css" value="vilagos">
+            <input type="submit" value="Világos">
+        </form>
+        <form method="GET">
+            <input type="hidden" name="css" value="sotet">
+            <input type="submit" value="Sötét">
+        </form>
     </body>
 </html>
+
